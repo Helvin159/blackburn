@@ -21,7 +21,7 @@
                         </div>
                     <hr>
                     <div class="container py-1 text-center">
-                        <a href="<?php the_permalink()?>"><h5 class="didot"><?php the_title()?></h5></a>
+                        <a href="<?php the_permalink()?>" style="color:black"><h5 class="didot"><?php the_title()?></h5></a>
                     </div>
 				    </div>
                 <?php }
