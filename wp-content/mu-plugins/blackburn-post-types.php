@@ -69,14 +69,14 @@ function blackburn_post_types(){
     ));
 
     // Contact 
-    register_post_type('contact', array(
+    register_post_type('contacts', array(
     
-      'capability_type' => 'contact',
+      'capability_type' => 'contacts',
       'map_meta_cap' => true,
       'show_in_rest' => true,
       'supports' => array('title', 'editor',),
       'rewrite' => array(
-        'slug' => 'contact'
+        'slug' => 'contacts'
       ),
       'public' => true,
       'has_archive' => true,
