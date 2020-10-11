@@ -13,8 +13,10 @@
                 <?php 
                 while(have_posts()){
                     the_post(); ?>
-                    <div class="col-md-3">
-					<a href="<?php the_permalink()?>"><img class="img-fluid imgthumbs" src="<?php the_post_thumbnail_url('pagethumbnails')?>"></a>
+                    <div class="col-md-3 my-2">
+					    <a href="<?php the_permalink()?>">
+                            <img class="img-fluid imgthumbs" src="<?php the_post_thumbnail_url('pagethumbnails')?>">
+                        </a>
 				    </div>
                 <?php }
                 ?>
