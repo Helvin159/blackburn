@@ -6,7 +6,7 @@
 <?php require_once('partials/nav.php')?>
 	<div class="container-fluid">
 
-        <div class="container text-center"><h1 class="display-3"><?php $title = get_the_archive_title(); echo  substr($title, 9); ?></h1></div>
+        <div class="container text-center"><h1 class="display-3"><?php $title = get_the_archive_title(); echo  substr($title, 10); ?></h1></div>
 		<div class="container">
 
 			<!--Boudoir-->
