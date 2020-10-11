@@ -50,6 +50,9 @@ function blackburn_features(){
   add_image_size('pagethumbnails', 300, 200, true);
   add_image_size('singlePortrait', 500, 650, true);
   add_image_size('iphone', 828, 1792, true);
+  add_image_size('iphoneLandscape', 1792, 828, true);
+  add_image_size('ipadPortrait', 1620, 2160, true);
+  add_image_size('ipadLandscape', 2160, 1620, true);
   add_image_size('home', 1500, 1200, true);
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');

@@ -68,13 +68,13 @@ function blackburn_post_types(){
       'menu_icon' => 'dashicons-palmtree'
     ));
 
-    // Antigua 
+    // Contact 
     register_post_type('contact', array(
     
       'capability_type' => 'contact',
       'map_meta_cap' => true,
       'show_in_rest' => true,
-      'supports' => array('title', 'editor', 'excerpt',),
+      'supports' => array('title', 'editor',),
       'rewrite' => array(
         'slug' => 'contact'
       ),
