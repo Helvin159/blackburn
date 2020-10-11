@@ -69,6 +69,28 @@ function blackburn_post_types(){
     ));
 
     // Antigua 
+    register_post_type('contact', array(
+    
+      'capability_type' => 'contact',
+      'map_meta_cap' => true,
+      'show_in_rest' => true,
+      'supports' => array('title', 'editor', 'excerpt',),
+      'rewrite' => array(
+        'slug' => 'contact'
+      ),
+      'public' => false,
+      'has_archive' => true,
+      'labels' => array(
+        'name' => 'Contact',
+        'add_new_item' => 'Add New Contact ',
+        'edit_item' => 'Edit Contact',
+        'all_items' => 'All Contacts',
+        'singular_name' => 'Contact',
+      ),
+      'menu_icon' => 'dashicons-testimonial'
+    ));
+
+    // Carousel 
     register_post_type('homeCarousel', array(
     
       'capability_type' => 'homeCarousel',

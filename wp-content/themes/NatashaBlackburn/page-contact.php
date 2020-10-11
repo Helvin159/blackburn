@@ -7,8 +7,8 @@
 				<h1 class="display-3 mblsize">Contact Me</h1>
 			</div>
 			
-			<div class="row contactform">
-				<div class="col-lg-6 text-left">
+			<div class="container contactform">
+				<div class="container text-left">
 					<div class="container text-left m-auto">
 				<form>
 					<label class="text-left fLInputs">
@@ -40,20 +40,9 @@
 				</form>
 						</div>
 				</div>
-				<div class="col-sm-6">
-					<div class="row">
-						<div class="col-lg-6"><img class="img-fluid imgthumbs" src="<?php echo get_theme_file_uri('assets/archives_thumbs/17.jpg')?>">
-						</div>
-						<div class="col-lg-6"><img class="img-fluid imgthumbs" src="<?php echo get_theme_file_uri('assets/archives_thumbs/20.jpg')?>"></div>
-					</div>
-					<div class="row">
-						<div class="col-lg-6"><img class="img-fluid imgthumbs" src="<?php echo get_theme_file_uri('assets/antiqua_cliff/3.jpg')?>">
-						</div>
-						<div class="col-lg-6"><img class="img-fluid imgthumbs" src="<?php echo get_theme_file_uri('assets/antiqua_dresses/17.jpg')?>"></div>
-					</div>
-				</div>
+				
 			</div>
-			<div class="row mt-2">
+			<div class="row py-4">
 				<div class="col-md-3">
 					<img class="img-fluid imgthumbs" src="<?php echo get_theme_file_uri('assets/bikini_thumbs/1.jpg')?>">
 				</div>
