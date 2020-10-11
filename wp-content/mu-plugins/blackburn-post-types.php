@@ -78,7 +78,7 @@ function blackburn_post_types(){
       'rewrite' => array(
         'slug' => 'contact'
       ),
-      'public' => false,
+      'public' => true,
       'has_archive' => true,
       'labels' => array(
         'name' => 'Contact',
