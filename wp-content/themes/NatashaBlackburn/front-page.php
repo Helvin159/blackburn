@@ -70,7 +70,7 @@ while($showPost->have_posts()){
 		</div>
 
 		<div class="container">
-		<a class="btn btn-md btn-light" id="herobtn" href="<?php echo esc_url(site_url('/blog'))?>">View My Work</a>
+		<a class="btn btn-md btn-light m-5" id="herobtn" href="<?php echo esc_url(site_url('/blog'))?>">View My Work</a>
 		</div>
 	</div>
 <?php 

@@ -16,6 +16,9 @@
 					<li>
 						<a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"></a>
 					</li>
+					<li>
+						<a href="<?php echo admin_url()?>"><i class="far fa-gem" style="font-size: 20px;"></i></a>
+					</li>
 				</ul>
 				
 			</div>
