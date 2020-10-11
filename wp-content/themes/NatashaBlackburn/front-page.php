@@ -35,10 +35,10 @@ while($showPost->have_posts()){
 					'post_type' => 'homecarousel',
 					'paged' => false
 				));
-				
+				$count = 0;
 				while($showPost->have_posts()){
 					$showPost->the_post(); ?>
-						<div class="carousel-item active" style="background:url(<?php the_post_thumbnail_url('home')?>);height:100vh;width:100vw;background-size:cover;background-repeat:no-repeat;background-position:center center">
+						<div class="carousel-item <?php if($count <= 0){ echo 'active';} ?>" style="background:url(<?php the_post_thumbnail_url('home')?>);height:100vh;width:100vw;background-size:cover;background-repeat:no-repeat;background-position:center center">
 			<!-- <img src=""  class="d-block w-100 img-fluid" alt="..."> -->
 		</div>
 				<?php } ?>
@@ -53,10 +53,10 @@ while($showPost->have_posts()){
 					'post_type' => 'homecarousel',
 					'paged' => false
 				));
-				
+				$count = 0;
 				while($showPost->have_posts()){
 					$showPost->the_post(); ?>
-						<div class="carousel-item active" style="background:url(<?php the_post_thumbnail_url('home')?>);height:100vh;width:100vw;background-size:cover;background-repeat:no-repeat;background-position:center center">
+						<div class="carousel-item <?php if($count <= 0){ echo 'active';} ?>" style="background:url(<?php the_post_thumbnail_url('home')?>);height:100vh;width:100vw;background-size:cover;background-repeat:no-repeat;background-position:center center">
 			<!-- <img src=""  class="d-block w-100 img-fluid" alt="..."> -->
 		</div>
 				<?php } ?>

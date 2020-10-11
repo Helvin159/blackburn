@@ -15,7 +15,7 @@
                     the_post(); ?>
                     <div class="container">
                         <div class="container text-center">
-                            <img class="img-fluid " src="<?php the_post_thumbnail_url()?>" style="max-height:600px;max-width:600px;">
+                            <img class="img-fluid " src="<?php the_post_thumbnail_url()?>">
                         </div>
                         <hr>
                             <?php 
