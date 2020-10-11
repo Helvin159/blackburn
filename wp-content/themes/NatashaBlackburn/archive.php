@@ -13,7 +13,7 @@
                 <?php 
                 while(have_posts()){
                     the_post(); ?>
-                    <div class="col-md-3 my-2 text-center">
+                    <div class="col-md-4 my-2 text-center">
 					    <a href="<?php the_permalink()?>">
                             <img class="img-fluid imgthumbs m-auto" src="<?php the_post_thumbnail_url('pagethumbnails')?>">
                         </a>
