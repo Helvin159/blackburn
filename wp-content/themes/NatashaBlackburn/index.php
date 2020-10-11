@@ -14,7 +14,11 @@
                 while(have_posts()){
                     the_post(); ?>
                     <div class="col-md-3">
-                    <a href="<?php the_permalink()?>"><img class="img-fluid imgthumbs" src="<?php the_post_thumbnail_url('pagethumbnails')?>"></a>
+                        <div class="container text-center">
+                            <a href="<?php the_permalink()?>" class="m-auto">
+                                <img class="img-fluid imgthumbs m-auto" src="<?php the_post_thumbnail_url('pagethumbnails')?>">
+                            </a>
+                        </div>
                     <hr>
                     <div class="container p-1 text-center">
                         <h5 class="didot"><?php the_title()?></h5>
