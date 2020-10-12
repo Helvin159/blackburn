@@ -25,18 +25,12 @@ if(strstr($_SERVER['SERVER_NAME'], 'modelportfolio.local')){
 	define( 'DB_USER', 'root' );
 	define( 'DB_PASSWORD', 'root' );
 	define( 'DB_HOST', 'localhost' );
-}else if(strstr($_SERVER['SERVER_NAME'], 'mrrymer.com')){
+}else {
      define( 'DB_NAME', 'kmmkcamy_nblackburn' );
 	define( 'DB_USER', 'kmmkcamy_helvin' );
 	define( 'DB_PASSWORD', 'Dora0411!?!' );
 	define( 'DB_HOST', 'localhost' );
-}else{
-	define( 'DB_NAME', 'nblackburn' );
-	define( 'DB_USER', 'helvin' );
-	define( 'DB_PASSWORD', 'dora0411' );
-	define( 'DB_HOST', 'localhost' );
 }
-
 /** Database Charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
