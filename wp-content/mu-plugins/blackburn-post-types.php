@@ -24,24 +24,24 @@ function blackburn_post_types(){
     'menu_icon' => 'dashicons-images-alt2'
   ));
 
-    // Budoir 
-    register_post_type('budoir', array(
+    // NYC 
+    register_post_type('nyc', array(
     
-      'capability_type' => 'budoir',
+      'capability_type' => 'nyc',
       'map_meta_cap' => true,
       'show_in_rest' => true,
       'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
       'rewrite' => array(
-        'slug' => 'budoir'
+        'slug' => 'nyc'
       ),
       'public' => true,
       'has_archive' => true,
       'labels' => array(
-        'name' => 'Budoir',
-        'add_new_item' => 'Add New Budoir Post',
-        'edit_item' => 'Edit Budoir Post',
-        'all_items' => 'All Budoir Posts',
-        'singular_name' => 'Budoir',
+        'name' => 'New York City',
+        'add_new_item' => 'Add New New York City Post',
+        'edit_item' => 'Edit New York City Post',
+        'all_items' => 'All New York City Posts',
+        'singular_name' => 'New York City',
       ),
       'menu_icon' => 'dashicons-smiley'
     ));
