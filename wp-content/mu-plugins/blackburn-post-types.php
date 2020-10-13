@@ -25,14 +25,14 @@ function blackburn_post_types(){
   ));
 
     // NYC 
-    register_post_type('nyc', array(
+    register_post_type('ny', array(
     
-      'capability_type' => 'nyc',
+      'capability_type' => 'ny',
       'map_meta_cap' => true,
       'show_in_rest' => true,
       'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
       'rewrite' => array(
-        'slug' => 'nyc'
+        'slug' => 'ny'
       ),
       'public' => true,
       'has_archive' => true,
